@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>BLUE BALL</title>
+        <style>
+            body{
+                background-color: aquamarine;
+                align-items: center ;
+                text-align: center;
+                font-size: 200%;
+            }
+            p{
+                margin-left: 3%;
+                width: 1400px;
+            }
+            button{
+                color: cyan;
+                font-size: 150%;
+                background-color: black;
+            }
+            button:hover{
+                cursor: pointer;
+                background-color: blueviolet;
+            }
+            a{
+                color: black;
+                margin-top: 12%;
+                background-color: red;
+                padding: 45px;
+                border: 2px inset;
+                border-radius: 50%;
+                font-size: 200%;
+                text-decoration: none;
+
+            }
+            a:hover{
+                background-color: blueviolet;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>BLUE BALL GAME</h1>
+        <div> <p>In this game, a ball is constanty moving from top to bottom. Random rectanangular blocks are constantly
+                generated so that the ball could rest there. There are 3 lives for a player. If the ball drops down, a life goes for the player.
+                Also if the spike hits the ball, then also a life goes. If all 3 lives are gone for a person, then the person loses the game.
+                The final score is calculated by how long the player has survived in the game.
+            </p>
+            <p id="leaderboard"></p>
+            <p id="scoreboard"></p>
+        </div>
+        <br><br><br>
+        <div id="links">
+            <a href="game.html">START GAME</a>
+        </div>        
+
+    </body>
+</html>

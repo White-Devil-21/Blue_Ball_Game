@@ -1,0 +1,14 @@
+body{
+  background-color: red;
+  margin: 0;
+  max-width: 100%;
+  overflow-x: hidden;
+  background-color: rgb(255, 255, 255);
+}
+canvas{
+  float: left;
+  background-color: rgb(27, 26, 26);
+}
+img{
+  display: none;
+}
